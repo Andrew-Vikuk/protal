@@ -1,0 +1,77 @@
+.content{
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.wrap{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+.last{
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+p{
+    text-align: justify;
+}
+p > span{
+    font-weight: bold;
+}
+p > p > span{
+    font-style: italic;
+    font-weight: 500;
+}
+ol{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+h3,h4,h5{
+    text-align: left;
+}
+.code{
+    font-weight: bold;
+}
+.indent{
+    text-indent: 50px;
+}
+
+.subMenu{
+    width: 250px;
+    white-space: nowrap;
+    position: fixed;
+    left: 10px;
+    bottom: 25%;
+    
+    
+  }
+
+.subMenu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s linear;
+    
+  }
+
+  .subMenu a:hover{
+    color: rgb(108, 201, 255);
+  }
+
+
+  
+  @media screen and (max-width: 1800px) {
+    .content{
+        max-width: 1000px;
+        margin: 0 auto;
+        
+    }
+}
+
+@media screen and (max-width: 1400px) {
+        .content{
+            max-width: 800px;
+            margin: 0 auto;
+            
+        }
+}

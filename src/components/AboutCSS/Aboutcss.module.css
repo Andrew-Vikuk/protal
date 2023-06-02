@@ -1,0 +1,66 @@
+h2{
+    text-align: left;
+}
+
+p{
+    text-align: left;
+    text-indent: 1.2em;
+}
+
+.content{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+.aboutCss{
+    width: 1400px;
+    margin: 0 auto;
+
+}
+
+.subMenu{
+    width: 250px;
+    white-space: nowrap;
+    position: fixed;
+    left: 10px;
+    bottom: 40%;
+    
+    
+  }
+
+.subMenu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.2s linear;
+    
+  }
+
+  .subMenu a:hover{
+    color: rgb(108, 201, 255);
+    
+  }
+
+
+
+  @media screen and (max-width: 1800px) {
+    .aboutCss{
+        width: 1000px;
+        margin: 0 auto;
+        
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .aboutCss{
+        width: 800px;
+        margin: 0 auto;
+        
+    }
+}

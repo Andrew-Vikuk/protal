@@ -1,0 +1,78 @@
+h2{
+    text-align: left!important;
+}
+
+p{
+    text-align: left!important;
+    text-indent: 1.2em;
+       
+}
+
+.content{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+.subItemsWrap{
+    position: fixed;
+    top: 230px;
+    width: 16%;
+    background: var(--primary-color);
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+
+.contentWrap{
+    min-height: calc(100vh - 80px);
+    width: 70%;
+}
+
+.subMenu{
+    position: relative;
+    width: 30%!important;
+    white-space: nowrap;
+  }
+
+
+  
+.subMenu a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+    transition: 0.2s linear;
+    background-color: var(--secondary-color);
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+
+  .subMenu a:hover, .subMenu a:active{
+    background-color: var(--accent-color);
+  }
+
+
+  @media screen and (max-width: 1800px) {
+    .aboutHtml{
+        width: 1000px;
+        margin: 0 auto;
+        
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .aboutHtml{
+        width: 800px;
+        margin: 0 auto;
+        
+    }
+}
+
+
+
